@@ -7,10 +7,8 @@ script:
 - docker images mhooimeijer/node
 
 before_deploy:
-- docker login -u mhooimeijer -p '$8JLD7fNj!qP4mxM'
+- docker login -u mhooimeijer -p DSJKahfack3bRo6o
 
-
-docvker
 deploy:
   provider: script
   script: docker push mhooimeijer/node
