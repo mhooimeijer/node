@@ -9,6 +9,7 @@ script:
 before_deploy:
 - docker login -u mhooimeijer -p $8JLD7fNj!qP4mxM
 
+
 deploy:
   provider: script
   script: docker push mhooimeijer/node
